@@ -1,0 +1,20 @@
+# Phụ thuộc và bản build
+node_modules/
+.next/
+out/
+build/
+
+# Biến môi trường (chứa thông tin kết nối) – chỉ đưa file mẫu lên
+.env
+.env*.local
+!.env.example
+
+# Hệ điều hành / IDE
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# File sao lưu CSDL
+*.bak
